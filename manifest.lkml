@@ -1,22 +1,17 @@
 
 constant: CONNECTION_NAME {
-  value: "cortex"
+  value: "bigquery_connection"
   export: override_required
 }
 
 
 constant: GCP_PROJECT {
-  value: "GCP Project Name"
+  value: "bdag-cortex"
   export: override_required
 }
 
 
 constant: SFDC_DATASET {
-  value: "Reporting Dataset Name"
+  value: "REPORTING_SFDC"
   export: override_required
 }
-
-
-
-
-
